@@ -1,4 +1,4 @@
-def test_example(a: int | float, b: int | float):
+def test_example(a: int, b: int) -> str:
     x = a + b
     return f'Сумма целых чисел: {a} + {b} = {x}'
 

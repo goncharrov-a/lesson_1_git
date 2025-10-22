@@ -1,4 +1,4 @@
-def test_example(a, b):
+def test_example(a: int, b: int) -> str:
     x = a + b
     return f'Сумма {a} + {b} = {x}'
 

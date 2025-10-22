@@ -1,6 +1,6 @@
 def test_example(a, b):
     x = a + b
-    return f'Сумма {a} + {b} = {x}'
+    return f'Сумма целых чисел: {a} + {b} = {x}'
 
 
 test_example(1, 3)
